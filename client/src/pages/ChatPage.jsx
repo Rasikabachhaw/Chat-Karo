@@ -54,7 +54,7 @@ const ChatPage = () => {
                   >
                     {user.fullName}
                   </button>
-                  <h2 className="text-md text-base-content">Chats</h2>
+                  <h2 className="text-md text-base-content">Chat</h2>
                 </div>
               </div>
               <button
@@ -66,7 +66,7 @@ const ChatPage = () => {
             </div>
             <div className="flex-1 overflow-y-auto">
               {/* Example chat list */}
-              <div>Recent Chats</div>
+              <div>Recent Chat</div>
               <ul>
                 {chatUser &&
                   chatUser.map((friends, index) => (
